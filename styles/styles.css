@@ -17,6 +17,7 @@ nav a {
 
 h1 {
     color: darkblue;
+    padding: 0 0 0 15px;
 }
 
 main img {
@@ -30,7 +31,7 @@ main img {
 }
 
 p {
-    padding: 15px 0; /* I changed <p> padding 0px (left and right), 15px (top and bottom)*/
+    padding: 15px 0 15px 15px; /* I changed <p> padding 0px (left and right), 15px (top and bottom)*/
 
 }
 
