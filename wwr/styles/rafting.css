@@ -19,6 +19,10 @@ body {
     font-weight: 300;
 }
 
+header {
+    background-color: var(--secondary-color);
+}
+
 header, main, footer {
     width: 840px;
     margin: 0 auto;
@@ -34,6 +38,26 @@ nav, p, section, article {
     margin: 16px;
     padding: 8px;
 }
+
+footer {
+    background-color: var(--secondary-color);
+    margin-top: 10px;
+}
+
+.foot {
+    display: grid;
+    align-items: center;
+}
+
+.foot p {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.foot nav {
+    grid-column: 3/4;
+}
+
 
 .socialmedia a {
     text-decoration: none;
@@ -81,9 +105,56 @@ article {
 	box-shadow: 0 0 30px #111;
 }
 
+.navigation {
+	display: grid;
+    align-items: center;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
 
+.navigation img {
+    grid-column: 1/2;
+}
 
+.navigation nav {
+	grid-column: 2/3;
+	color: navy;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
 
+.adventure2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
 
+.adventure3 {
+    grid-column: 1/6;
+    text-align: center;
+    margin: 0 auto 30px;
+}
 
+.adventure2 figure img {
+    width: 135px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.box {
+    background-color: lightgrey;
+}
+
+.box-1 {
+    background-color: lightgrey;
+}
+
+.box-1 h2 {
+    text-align: center;
+}
+
+main {
+    margin-top: 15px;
+}
