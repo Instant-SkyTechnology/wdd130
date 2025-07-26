@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz@0,18..144;1,18..144&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="box">
+        <input type="checkbox" id="quiz" name="quiz">
+        <label for="quiz"><strong>Basic HTML and CSS Quiz</strong></label>
+        </div>
+    </header>
+    <main>
+        <form>
+            <div class="form-item column1">
+            <label for="q1"><strong>1.</strong>What does the acronym CSS stand for?</label><br>
+            <input type="text" id="q1" name="q1"><br>
+            </div>
+            <div class="form-item column2">
+            <label for="q2"><strong>2.</strong>How are id and class attributes selected in CSS?</label><br>
+            <textarea id="q2" name="q2" rows="3"></textarea><br>
+            </div>
+            <div class="form-item column3">
+            <label for="q3"><strong>3.</strong>Which of the following is a valid CSS comment?</label><br>
+            <select name="q3" id="q3">
+                <option value="choose">Choose One...</option>
+                <option value="css">CSS is not important in web design.</option>
+                <option value="css">CSS is a stylesheet language used to difine the presentation and styling.</option>
+                <option value="all">All of the above.</option>
+            </select><br>
+            </div>
+            <div class="form-item column4">
+            <label for="q4"><strong>4.</strong>What is the bottom margin given this declaration?</label><br>
+            <img src="images/quiz_week05.png" alt="quiz week05" width="370"><br>
+            <input type="number" id="q4" name="q4"><br>
+            </div>
+            <div class="form-item column5">
+            <button type="submit">Submit Quiz</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
