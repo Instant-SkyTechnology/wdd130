@@ -111,11 +111,13 @@ h1 {
     margin: 0 auto 30px;
 }
 
-.adventure2 figure img {
+figure img {
     width: 135px;
     height: 100px;
     display: flex;
     justify-content: space-evenly;
+    border: 1px solid #000;
+    object-fit: cover;
 }
 
 .box {
@@ -126,6 +128,4 @@ main {
     margin-top: 15px;
 }
 
-figure img {
-    border: 1px solid #000;
-}
+
