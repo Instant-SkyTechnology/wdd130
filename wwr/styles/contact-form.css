@@ -85,7 +85,7 @@ button {
 }
 
 
-.x-button {
+.x-buton {
     margin: auto auto;
 }
 
@@ -104,12 +104,12 @@ footer {
   padding: 0.6em;
 }
 
-.form-item {
+.form-itm {
   display: grid;
   align-items: center;
 }
 
-.column2 {
+.column22 {
   grid-template-columns: 1fr 3.5fr;
 }
 
