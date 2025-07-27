@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <link rel="stylesheet" href="styles/contact-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz@0,18..144;1,18..144&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Contact Us Form</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Your Contact Information</legend>
+                <div class="form-item column2">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname">
+                </div>
+                <div class="form-item column2">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname">
+                </div>
+                <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Ask Us About</legend>
+                <div class="fm-item column1">
+                <input type="radio" id="inquiry" name="generalinquiry" value="generalinquiry">
+                <label for="inquiry">General Inquiry</label><br>
+                <input type="radio" id="reservation" name="reservation" value="reservation">
+                <label for="reservation">Reservation Question</label><br>
+                <input type="radio" id="website" name="website" value="website">
+                <label for="website">Website Suggestion</label>
+                </div><br>
+                <label for="feedback">Wright your message here:</label>
+                <textarea name="feedback" id="feedback" rows="4"></textarea><br>
+                <div class="fm-item column1">
+                <input type="checkbox" id="news" name="news">
+                <label for="news">Please subscribe me to the monthly newsletter</label>
+                </div>
+            </fieldset>
+            <div  class="x-button">
+            <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2025 | Rafting Company Mooney's Bay | Steve Buamikusu KALALA</p>
+    </footer>
+</body>
+</html>
