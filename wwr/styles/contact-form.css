@@ -73,6 +73,11 @@ input[type="checkbox"] {
   vertical-align: center;
 }
 
+input[type="radio"] {
+  width: 17px;
+  height: 17px;
+}
+
 button {
   margin: 1rem;
   background-color: navy;
@@ -114,7 +119,7 @@ footer {
 }
 
 
-label[for="feedback"] {
+label[for="message"] {
     text-align: left;
 }
 
