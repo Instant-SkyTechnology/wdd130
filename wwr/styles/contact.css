@@ -116,7 +116,7 @@ figure img {
     height: 100px;
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid #000;
+    border: 1px solid #444;
     object-fit: cover;
 }
 
