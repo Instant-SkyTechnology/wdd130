@@ -1,0 +1,192 @@
+:root {
+    --primary-color	: #323A36;
+    --secondary-color: #D2F1E4;
+    --accent1-color	: #4A554E;
+    --accent2-color	: #48304D;
+    --heading-font: "ubuntu-regular", sans-serif;
+    --body-font: "ubuntu-regular", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    font-weight: 300;
+}
+
+header {
+    background-color: var(--secondary-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+nav, p, section {
+    margin: 16px;
+    padding: 8px;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    margin-top: 10px;
+}
+
+.foot {
+    display: grid;
+    align-items: center;
+}
+
+.foot p {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.foot nav {
+    grid-column: 3/4;
+}
+
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+
+/* Week 06 CSS part */
+
+.navigation {
+	display: grid;
+    align-items: center;
+}
+
+.navigation img {
+    grid-column: 1/2;
+}
+
+.navigation nav {
+	grid-column: 2/3;
+}
+
+.anchor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.adventure2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: space-between;
+}
+
+.adventure2 figure {
+    margin: 0 auto;
+}
+
+
+.adventure3 {
+    grid-column: 1/3;
+    text-align: center;
+    margin: 0 auto 30px;
+}
+
+figure img {
+    width: 385px;
+    height: 250px;
+    border: 1px solid #888;
+    object-fit: cover;
+}
+
+figure {
+    text-align: center;
+}
+
+.box section {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.190);
+    border-top: 1px solid rgba(0, 0, 0, 0.190);
+}
+
+.box section h2 {
+    margin-top: 17px;
+}
+
+
+main {
+    margin-top: 20px;
+}
+
+button {
+  font-family: Ubuntu, 'Times New Roman', Times, serif;
+}
+
+
+button {
+  margin: 1rem;
+  background-color: darkcyan;
+  color: #fff;
+  border: none;
+  padding: .75rem;
+  font-size: 1.2rem;
+  width: 160px;
+}
+
+
+button:hover {
+  background-color: lightgreen;
+}
+
+/* Table section CSS */
+
+.lolo section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.lolo section {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.190);
+}
+
+table {
+  border-collapse: collapse;
+  border: 1.5px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
