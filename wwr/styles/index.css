@@ -19,9 +19,17 @@ body {
     font-weight: 300;
 }
 
+footer {
+    background-color: var(--secondary-color);
+    margin-top: 10px;
+}
+
+
 header {
     background-color: var(--secondary-color);
 }
+
+
 
 header, main, .stev, footer {
     width: 840px;
@@ -34,14 +42,12 @@ h1, h2 {
     font-weight: 400;
 }
 
-nav, p, section, article {
+nav, p, section {
     margin: 16px;
     padding: 8px;
 }
 
-footer {
-    background-color: var(--secondary-color);
-}
+
 
 .foot {
     display: grid;
@@ -72,6 +78,7 @@ footer {
     height: auto;
     object-fit: cover;
 }
+
 
 h1 {
    position: absolute;
