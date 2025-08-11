@@ -30,9 +30,7 @@ header {
 }
 
 
-
 header, main, .stev, footer {
-    width: 840px;
     margin: 0 auto;
 }
 
@@ -73,7 +71,7 @@ nav, p, section {
 }
 
 .hero img {
-    display: block;
+
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -111,15 +109,10 @@ h1 {
 }
 
 
-main {
-    margin-top: 15px;
-}
-
-
 .stev {
     display: grid;
     align-items: center;
-    
+    background-color: #eeeeee86; 
 }
 
 aside kal {
