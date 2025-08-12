@@ -13,6 +13,12 @@
     box-sizing: border-box;
 }
 
+header, main, .stev, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
