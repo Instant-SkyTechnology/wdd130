@@ -24,8 +24,8 @@ nav a {
 h1 {
     color: steelblue;
     padding: 0 0 0 15px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.381);
-    border-top: 1px solid rgba(0, 0, 0, 0.381);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.618);
+    border-top: 1px solid rgba(0, 0, 0, 0.618);
 }
 
 main img {
