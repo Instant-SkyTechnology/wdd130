@@ -24,15 +24,15 @@ nav a {
 h1 {
     color: steelblue;
     padding: 0 0 0 15px;
-    border-bottom: 1px solid black ;
-    border-top: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.381);
+    border-top: 1px solid rgba(0, 0, 0, 0.381);
 }
 
 main img {
     float: right;
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.56);
     padding: 3px;
     box-shadow: 0 0 30px gray;
     margin: 15px; /* I added margin here */
